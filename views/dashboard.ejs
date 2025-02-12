@@ -1,0 +1,7 @@
+<%- include('layout') %>
+<div class="container dashboard">
+    <h1>Welcome, <%= user.username %>!</h1>
+    <p>Email: <%= user.email %></p>
+    <a href="/reset"><button>Change Password</button></a>
+    <a href="/logout"><button>Logout</button></a>
+</div>
